@@ -25,7 +25,7 @@
         make.top.equalTo(self.view).offset(80);
         make.centerX.equalTo(self.view);
         make.width.equalTo(150);
-        make.height.equalTo(4*35);
+        make.height.equalTo(self.multiToast.maxCellCount * [self.multiToast cellHeight]);
     }];
 }
 

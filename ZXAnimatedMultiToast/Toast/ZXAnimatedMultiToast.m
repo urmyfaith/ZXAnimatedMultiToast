@@ -11,11 +11,8 @@
 #import "ZXAnimatedToastMessage.h"
 
 @interface ZXAnimatedMultiToast()<UITableViewDelegate,UITableViewDataSource>
-{
-    BOOL isAnimating;
-}
 @property(nonatomic, strong) UITableView *tableView;
-@property(nonatomic, strong,readwrite) NSMutableArray *rows;
+@property(nonatomic, strong) NSMutableArray *rows;
 @property(nonatomic, strong) NSTimer *timer;
 @end
 
@@ -107,13 +104,13 @@
         if (self.rows.count > self.maxCellCount) {
             NSMutableArray *indexPathArray = [NSMutableArray array];
             NSMutableArray *rowArray = [NSMutableArray array];
-            [self.rows enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+            [self.rows enumerateObjectsUsingBlock:^(id  obj, NSUInteger idx, BOOL * stop) {
                 if (idx > self.maxCellCount - 1) {
                     [indexPathArray addObject:[NSIndexPath indexPathForRow:idx inSection:0]];
                     [rowArray addObject:obj];
                 }
             }];
-            if(indexPathArray.count >0 ){
+            if(indexPathArray.count > 0 ){
                 [self.tableView beginUpdates];
                 [self.rows removeObjectsInArray:rowArray];
                 [self.tableView deleteRowsAtIndexPaths:indexPathArray withRowAnimation:UITableViewRowAnimationFade];
@@ -124,6 +121,11 @@
 
     [self stopTimer];
     [self.timer resumeTimerAfterTimeInterval:2.0];
+}
+
+-(CGFloat)cellHeight
+{
+    return [ZXAnimatedToastCell cellHeight];
 }
 
 #pragma mark - UITableViewDataSource

@@ -9,6 +9,15 @@
 #import <UIKit/UIKit.h>
 
 @interface ZXAnimatedMultiToast : UIView
+
+//config: default -> 4
 @property(nonatomic, assign) NSInteger maxCellCount;
+
+//API
 -(void)appendMessage:(NSString *)message;
+
+-(CGFloat)cellHeight;
+
+//cleanup
+-(void)removeTimer;
 @end
