@@ -10,8 +10,11 @@
 
 @interface ZXAnimatedMultiToast : UIView
 
-//config: default -> 4
+//config: default -> 4 cells
 @property(nonatomic, assign) NSInteger maxCellCount;
+
+//config: default -> 2s
+@property(nonatomic, assign) CGFloat dissmisDuration;
 
 //API
 -(void)appendMessage:(NSString *)message;

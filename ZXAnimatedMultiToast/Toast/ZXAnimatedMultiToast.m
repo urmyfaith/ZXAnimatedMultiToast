@@ -26,10 +26,11 @@
         [self bulidHierarchy];
         [self buildConstraints];
 
-        self.timer = [NSTimer scheduledTimerWithTimeInterval:2.0f target:self selector:@selector(checkRows) userInfo:nil repeats:YES];
-        [self stopTimer];
-
         self.maxCellCount = 4;
+        self.dissmisDuration = 2;
+
+        self.timer = [NSTimer scheduledTimerWithTimeInterval:self.dissmisDuration target:self selector:@selector(checkRows) userInfo:nil repeats:YES];
+        [self stopTimer];
     }
     return self;
 }
@@ -120,7 +121,7 @@
     }
 
     [self stopTimer];
-    [self.timer resumeTimerAfterTimeInterval:2.0];
+    [self.timer resumeTimerAfterTimeInterval:self.dissmisDuration];
 }
 
 -(CGFloat)cellHeight
