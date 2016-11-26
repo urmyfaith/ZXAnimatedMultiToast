@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C56E49137D7A68C534700EEC /* libPods-ZXAnimatedMultiToast.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 047BC550511289843C9F2C2D /* libPods-ZXAnimatedMultiToast.a */; };
 		FB0FE8581DE921B500A57851 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0FE8571DE921B500A57851 /* main.m */; };
 		FB0FE85B1DE921B600A57851 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0FE85A1DE921B600A57851 /* AppDelegate.m */; };
 		FB0FE85E1DE921B600A57851 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0FE85D1DE921B600A57851 /* ViewController.m */; };
@@ -14,6 +15,12 @@
 		FB0FE8631DE921B600A57851 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB0FE8621DE921B600A57851 /* Assets.xcassets */; };
 		FB0FE8661DE921B700A57851 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB0FE8641DE921B700A57851 /* LaunchScreen.storyboard */; };
 		FB0FE8711DE921B700A57851 /* ZXAnimatedMultiToastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0FE8701DE921B700A57851 /* ZXAnimatedMultiToastTests.m */; };
+		FB0FE87D1DE921CE00A57851 /* NSTimer+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0FE87C1DE921CE00A57851 /* NSTimer+Addition.m */; };
+		FB0FE8851DE921F100A57851 /* ZXAnimatedMultiToast.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0FE8801DE921F100A57851 /* ZXAnimatedMultiToast.m */; };
+		FB0FE8861DE921F100A57851 /* ZXAnimatedToastCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0FE8821DE921F100A57851 /* ZXAnimatedToastCell.m */; };
+		FB0FE8871DE921F100A57851 /* ZXAnimatedToastMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0FE8841DE921F100A57851 /* ZXAnimatedToastMessage.m */; };
+		FB0FE88B1DE9245E00A57851 /* Readme.md in Sources */ = {isa = PBXBuildFile; fileRef = FB0FE88A1DE9245E00A57851 /* Readme.md */; };
+		FB0FE88E1DE9255400A57851 /* screencapture.gif in Resources */ = {isa = PBXBuildFile; fileRef = FB0FE88D1DE9255400A57851 /* screencapture.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,10 +34,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		047BC550511289843C9F2C2D /* libPods-ZXAnimatedMultiToast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZXAnimatedMultiToast.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		312F69D1A9DC216FA08A516F /* Pods-ZXAnimatedMultiToast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXAnimatedMultiToast.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZXAnimatedMultiToast/Pods-ZXAnimatedMultiToast.debug.xcconfig"; sourceTree = "<group>"; };
+		AD8604BD30A1B87C1DD5CB54 /* Pods-ZXAnimatedMultiToast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXAnimatedMultiToast.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZXAnimatedMultiToast/Pods-ZXAnimatedMultiToast.release.xcconfig"; sourceTree = "<group>"; };
 		FB0FE8531DE921B500A57851 /* ZXAnimatedMultiToast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXAnimatedMultiToast.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB0FE8571DE921B500A57851 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FB0FE8591DE921B600A57851 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		FB0FE85A1DE921B600A57851 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB0FE8571DE921B500A57851 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		FB0FE8591DE921B600A57851 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		FB0FE85A1DE921B600A57851 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		FB0FE85C1DE921B600A57851 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FB0FE85D1DE921B600A57851 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FB0FE8601DE921B600A57851 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,6 +50,17 @@
 		FB0FE86C1DE921B700A57851 /* ZXAnimatedMultiToastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZXAnimatedMultiToastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB0FE8701DE921B700A57851 /* ZXAnimatedMultiToastTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXAnimatedMultiToastTests.m; sourceTree = "<group>"; };
 		FB0FE8721DE921B700A57851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB0FE87B1DE921CE00A57851 /* NSTimer+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Addition.h"; sourceTree = "<group>"; };
+		FB0FE87C1DE921CE00A57851 /* NSTimer+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Addition.m"; sourceTree = "<group>"; };
+		FB0FE87F1DE921F100A57851 /* ZXAnimatedMultiToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = ZXAnimatedMultiToast.h; path = Toast/ZXAnimatedMultiToast.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		FB0FE8801DE921F100A57851 /* ZXAnimatedMultiToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = ZXAnimatedMultiToast.m; path = Toast/ZXAnimatedMultiToast.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		FB0FE8811DE921F100A57851 /* ZXAnimatedToastCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXAnimatedToastCell.h; path = Toast/ZXAnimatedToastCell.h; sourceTree = "<group>"; };
+		FB0FE8821DE921F100A57851 /* ZXAnimatedToastCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXAnimatedToastCell.m; path = Toast/ZXAnimatedToastCell.m; sourceTree = "<group>"; };
+		FB0FE8831DE921F100A57851 /* ZXAnimatedToastMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXAnimatedToastMessage.h; path = Toast/ZXAnimatedToastMessage.h; sourceTree = "<group>"; };
+		FB0FE8841DE921F100A57851 /* ZXAnimatedToastMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXAnimatedToastMessage.m; path = Toast/ZXAnimatedToastMessage.m; sourceTree = "<group>"; };
+		FB0FE8891DE9231800A57851 /* ZXAnimatedMultiToast.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXAnimatedMultiToast.pch; sourceTree = "<group>"; };
+		FB0FE88A1DE9245E00A57851 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = Readme.md; path = ../Readme.md; sourceTree = "<group>"; };
+		FB0FE88D1DE9255400A57851 /* screencapture.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = screencapture.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C56E49137D7A68C534700EEC /* libPods-ZXAnimatedMultiToast.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +82,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		621D933308AC3AC1FBDF8A1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				047BC550511289843C9F2C2D /* libPods-ZXAnimatedMultiToast.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64D9664D031D39B3A13E5921 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				312F69D1A9DC216FA08A516F /* Pods-ZXAnimatedMultiToast.debug.xcconfig */,
+				AD8604BD30A1B87C1DD5CB54 /* Pods-ZXAnimatedMultiToast.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FB0FE84A1DE921B500A57851 = {
 			isa = PBXGroup;
 			children = (
 				FB0FE8551DE921B500A57851 /* ZXAnimatedMultiToast */,
 				FB0FE86F1DE921B700A57851 /* ZXAnimatedMultiToastTests */,
 				FB0FE8541DE921B500A57851 /* Products */,
+				64D9664D031D39B3A13E5921 /* Pods */,
+				621D933308AC3AC1FBDF8A1A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,10 +122,15 @@
 		FB0FE8551DE921B500A57851 /* ZXAnimatedMultiToast */ = {
 			isa = PBXGroup;
 			children = (
+				FB0FE88C1DE9255400A57851 /* screencapture */,
+				FB0FE87E1DE921D700A57851 /* Toast */,
 				FB0FE8591DE921B600A57851 /* AppDelegate.h */,
 				FB0FE85A1DE921B600A57851 /* AppDelegate.m */,
 				FB0FE85C1DE921B600A57851 /* ViewController.h */,
 				FB0FE85D1DE921B600A57851 /* ViewController.m */,
+				FB0FE87B1DE921CE00A57851 /* NSTimer+Addition.h */,
+				FB0FE87C1DE921CE00A57851 /* NSTimer+Addition.m */,
+				FB0FE8891DE9231800A57851 /* ZXAnimatedMultiToast.pch */,
 				FB0FE85F1DE921B600A57851 /* Main.storyboard */,
 				FB0FE8621DE921B600A57851 /* Assets.xcassets */,
 				FB0FE8641DE921B700A57851 /* LaunchScreen.storyboard */,
@@ -111,6 +157,28 @@
 			path = ZXAnimatedMultiToastTests;
 			sourceTree = "<group>";
 		};
+		FB0FE87E1DE921D700A57851 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				FB0FE88A1DE9245E00A57851 /* Readme.md */,
+				FB0FE87F1DE921F100A57851 /* ZXAnimatedMultiToast.h */,
+				FB0FE8801DE921F100A57851 /* ZXAnimatedMultiToast.m */,
+				FB0FE8811DE921F100A57851 /* ZXAnimatedToastCell.h */,
+				FB0FE8821DE921F100A57851 /* ZXAnimatedToastCell.m */,
+				FB0FE8831DE921F100A57851 /* ZXAnimatedToastMessage.h */,
+				FB0FE8841DE921F100A57851 /* ZXAnimatedToastMessage.m */,
+			);
+			name = Toast;
+			sourceTree = "<group>";
+		};
+		FB0FE88C1DE9255400A57851 /* screencapture */ = {
+			isa = PBXGroup;
+			children = (
+				FB0FE88D1DE9255400A57851 /* screencapture.gif */,
+			);
+			path = screencapture;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB0FE8751DE921B700A57851 /* Build configuration list for PBXNativeTarget "ZXAnimatedMultiToast" */;
 			buildPhases = (
+				19729E1D4FA3CD4976B15C79 /* [CP] Check Pods Manifest.lock */,
 				FB0FE84F1DE921B500A57851 /* Sources */,
 				FB0FE8501DE921B500A57851 /* Frameworks */,
 				FB0FE8511DE921B500A57851 /* Resources */,
+				F05284DA7846913B9E4F7FBD /* [CP] Embed Pods Frameworks */,
+				027BA93AEB04848A42D11535 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB0FE8661DE921B700A57851 /* LaunchScreen.storyboard in Resources */,
+				FB0FE88E1DE9255400A57851 /* screencapture.gif in Resources */,
 				FB0FE8631DE921B600A57851 /* Assets.xcassets in Resources */,
 				FB0FE8611DE921B600A57851 /* Main.storyboard in Resources */,
 			);
@@ -210,13 +282,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		027BA93AEB04848A42D11535 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZXAnimatedMultiToast/Pods-ZXAnimatedMultiToast-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19729E1D4FA3CD4976B15C79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F05284DA7846913B9E4F7FBD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZXAnimatedMultiToast/Pods-ZXAnimatedMultiToast-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FB0FE84F1DE921B500A57851 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB0FE8861DE921F100A57851 /* ZXAnimatedToastCell.m in Sources */,
 				FB0FE85E1DE921B600A57851 /* ViewController.m in Sources */,
 				FB0FE85B1DE921B600A57851 /* AppDelegate.m in Sources */,
+				FB0FE88B1DE9245E00A57851 /* Readme.md in Sources */,
+				FB0FE87D1DE921CE00A57851 /* NSTimer+Addition.m in Sources */,
+				FB0FE8851DE921F100A57851 /* ZXAnimatedMultiToast.m in Sources */,
+				FB0FE8871DE921F100A57851 /* ZXAnimatedToastMessage.m in Sources */,
 				FB0FE8581DE921B500A57851 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,7 +424,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -341,7 +466,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -351,9 +476,11 @@
 		};
 		FB0FE8761DE921B700A57851 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 312F69D1A9DC216FA08A516F /* Pods-ZXAnimatedMultiToast.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HMPLSA9ZYN;
+				GCC_PREFIX_HEADER = "${SRCROOT}/ZXAnimatedMultiToast/ZXAnimatedMultiToast.pch";
 				INFOPLIST_FILE = ZXAnimatedMultiToast/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.z2xy.ZXAnimatedMultiToast;
@@ -363,9 +490,11 @@
 		};
 		FB0FE8771DE921B700A57851 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD8604BD30A1B87C1DD5CB54 /* Pods-ZXAnimatedMultiToast.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HMPLSA9ZYN;
+				GCC_PREFIX_HEADER = "${SRCROOT}/ZXAnimatedMultiToast/ZXAnimatedMultiToast.pch";
 				INFOPLIST_FILE = ZXAnimatedMultiToast/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.z2xy.ZXAnimatedMultiToast;
@@ -418,6 +547,7 @@
 				FB0FE8771DE921B700A57851 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB0FE8781DE921B700A57851 /* Build configuration list for PBXNativeTarget "ZXAnimatedMultiToastTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +556,7 @@
 				FB0FE87A1DE921B700A57851 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
