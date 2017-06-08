@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/urmyfaith/ZXAnimatedMultiToast.png?label=ready&title=Ready)](https://waffle.io/urmyfaith/ZXAnimatedMultiToast?utm_source=badge)
 
 # ZXAnimatedMultiToast
 
